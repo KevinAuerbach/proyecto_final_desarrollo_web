@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.logo-brand {
+    min-width: 160px;
+    max-width: 100px;
+    margin-top: 15px;
+}
+
+.navbar {
+    background-color: black;
+    height: auto;
+}
+
+#navbarNav {
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: rgb(232, 78, 22);
+    margin: 0px 30px;
+}
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    outline: rgb(232, 78, 22);
+    color: rgb(232, 78, 22);
+}
+
+.carousel-caption {
+    color: white;
+    font-size: 30px;
+}
+
+div h5 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color:rgb(232, 78, 22);
+    padding: 20px;
+    color: black;
+}
+
+
+
+.icono {
+color: black;
+width: 100px;
+max-width: 50px;
+min-width: 50px;
+}
+
+
+    
