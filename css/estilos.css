@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -29,9 +30,25 @@ body {
     max-height: 39rem;
 }
 
-.carousel-caption {
-    height: auto;
+.card {
+    border: none;
+    margin-top: 100px;
 }
 
+.footer {
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+    border-top: 5px solid black;
+}
 
+.iconlink {
+    color: black;
+    margin: 10px;
+}
+
+.iconlink a:hover {
+    color: white;
+}
     
