@@ -51,4 +51,14 @@ body {
 .iconlink a:hover {
     color: white;
 }
+
+.btn {
+    background-color: blueviolet;
+}
+
+.btn:hover {
+    color: blueviolet;
+    background-color: black;
+    border: 2px, solid, white;
+}
     
