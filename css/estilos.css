@@ -12,13 +12,17 @@ body {
     background-color: blueviolet;;
 }
 
+nav {
+    background-color: blueviolet;
+}
+
 .nav-link {
     color: black;
     font-size: 15px;
 }
 
 .nav-link:hover {
-    color: blueviolet;
+    color: white;
 }
 
 .navbar-toggler {
@@ -59,6 +63,7 @@ body {
 .btn:hover {
     color: blueviolet;
     background-color: black;
-    border: 2px, solid, white;
 }
+
+
     
