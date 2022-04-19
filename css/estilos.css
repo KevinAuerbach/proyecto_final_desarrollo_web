@@ -19,10 +19,12 @@ nav {
 .nav-link {
     color: black;
     font-size: 15px;
+    transition: transform .7s;
 }
 
 .nav-link:hover {
     color: white;
+    transform: scale(1,2);
 }
 
 .navbar-toggler {
