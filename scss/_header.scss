@@ -1,0 +1,38 @@
+.encabezado {
+    background-color: $colorPrimario;
+}
+
+nav {
+    background-color: $colorPrimario;
+}
+
+.nav-link {
+    color: black;
+    font-size: 15px;
+    transition: transform .7s;
+
+    &:hover {
+        color: white;
+        transform: scale(1,2);
+    }
+}
+
+
+
+.navbar-toggler {
+    color: white;
+    border: solid, 1px, white;
+}
+
+.iconlink {
+    color: black;
+    margin: 10px;
+    
+    &:hover {
+        color: white;
+    }
+}
+
+
+
+

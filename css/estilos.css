@@ -1,71 +1,51 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
 
 body {
-    font-family: 'Roboto', sans-serif;
-}
+  font-family: 'Roboto', sans-serif; }
 
 .encabezado {
-    background-color: blueviolet;;
-}
+  background-color: blueviolet; }
 
 nav {
-    background-color: blueviolet;
-}
+  background-color: blueviolet; }
 
 .nav-link {
-    color: black;
-    font-size: 15px;
-    transition: transform .7s;
-}
-
-.nav-link:hover {
+  color: black;
+  font-size: 15px;
+  transition: transform .7s; }
+  .nav-link:hover {
     color: white;
-    transform: scale(1,2);
-}
+    transform: scale(1, 2); }
 
 .navbar-toggler {
-    color: white;
-    border: solid, 1px, white;
-}
-
-.carousel-inner {
-    max-height: 39rem;
-}
-
-.card {
-    border: none;
-    margin-top: 100px;
-}
-
-.footer {
-    background-color: blueviolet;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 12rem;
-    border-top: 5px solid black;
-}
+  color: white;
+  border: solid, 1px, white; }
 
 .iconlink {
-    color: black;
-    margin: 10px;
-}
+  color: black;
+  margin: 10px; }
+  .iconlink:hover {
+    color: white; }
 
-.iconlink a:hover {
-    color: white;
-}
+.carousel-inner {
+  max-height: 39rem; }
+
+.card {
+  border: none;
+  margin-top: 100px; }
 
 .btn {
-    background-color: blueviolet;
-}
-
-.btn:hover {
+  background-color: blueviolet; }
+  .btn:hover {
     color: blueviolet;
-    background-color: black;
-}
+    background-color: black; }
 
-
-    
+.footer {
+  background-color: blueviolet;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 12rem;
+  border-top: 5px solid black; }
