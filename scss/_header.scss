@@ -1,18 +1,18 @@
 .encabezado {
-    background-color: $colorPrimario;
+    background-color: map-get($map: $colors, $key:"primario" );
 }
 
 nav {
-    background-color: $colorPrimario;
+    @extend .encabezado
 }
 
 .nav-link {
-    color: black;
+    color: map-get($map: $colors, $key:"negro" );
     font-size: 15px;
     transition: transform .7s;
 
     &:hover {
-        color: white;
+        color: map-get($map: $colors, $key:"blanco" );
         transform: scale(1,2);
     }
 }

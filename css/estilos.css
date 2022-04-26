@@ -1,15 +1,12 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box; }
 
 body {
   font-family: 'Roboto', sans-serif; }
 
-.encabezado {
-  background-color: blueviolet; }
-
-nav {
+.encabezado, nav {
   background-color: blueviolet; }
 
 .nav-link {
