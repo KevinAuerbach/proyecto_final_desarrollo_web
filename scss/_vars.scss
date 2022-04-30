@@ -1,10 +1,14 @@
 $colorPrimario:blueviolet;
+
 // MAP // 
+
 $colors: (
     "primario": $colorPrimario,
     "blanco": white,
     "negro": black,
 );
+
+// MIXIN //
 
 @mixin reset($margin,$padding,$box-sizing) {
     margin: $margin;

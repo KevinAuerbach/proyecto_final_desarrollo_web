@@ -37,8 +37,11 @@ body {
 .btn {
   background-color: blueviolet; }
   .btn:hover {
-    color: blueviolet;
-    background-color: black; }
+    color: white;
+    background-color: green; }
+
+.tutorial_display {
+  border: 2px dashed blueviolet; }
 
 .footer {
   background-color: blueviolet;
