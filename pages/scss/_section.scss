@@ -1,0 +1,23 @@
+.carousel-inner {
+    max-height: 39rem;
+}
+
+.card {
+    border: none;
+    margin-top: 100px;
+}
+
+.btn {
+    background-color: $colorPrimario;
+
+    &:hover {
+            color: white;
+            background-color: green;
+        }
+}
+
+.tutorial_display {
+    border: 2px dashed $colorPrimario;
+}
+
+
